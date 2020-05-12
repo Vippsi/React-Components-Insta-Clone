@@ -1,6 +1,7 @@
 // You do not need to do anything in this file
 import React from 'react';
 
+
 const CommentInput = props => {
   return (
     <form className="comment-form" onSubmit={props.submitComment}>
@@ -11,6 +12,7 @@ const CommentInput = props => {
         onChange={props.changeComment}
       />
     </form>
+    
   );
 };
 
